@@ -1,0 +1,18 @@
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #c3002f;
+}
+nav a:hover {
+  color: #e23237;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #e23237;
+}

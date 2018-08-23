@@ -1,0 +1,34 @@
+.details-hero{
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  position: relative;
+  width: 30%;
+  padding: 0.8em;
+  text-align: center;
+  border: 4px solid #0272AE;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0.5em;
+}
+
+.details-hero h2{
+  color: #e23237;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #0288d1;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+  color: #EEEEEE;
+}
+button:hover {
+  background-color: #47ABE1;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
